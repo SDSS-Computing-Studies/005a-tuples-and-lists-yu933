@@ -19,3 +19,9 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+myList = ["Alain","Brian","Chris","Justin","Angela","Rick"]
+print(myList)
+name = input().strip()
+replaceName = input().strip()
+myList[myList.index(name)] = replaceName
+print(myList)
